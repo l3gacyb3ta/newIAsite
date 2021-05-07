@@ -1,0 +1,19 @@
+{
+  "name": "iasite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^10.2.0",
+    "@hackclub/meta": "^1.0.0",
+    "@hackclub/theme": "^0.3.1",
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
