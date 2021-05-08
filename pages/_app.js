@@ -22,12 +22,13 @@ import {
 } from 'theme-ui'
 import Head from 'next/head'
 import theme from '@hackclub/theme'
+import { ThemeProvider } from 'theme-ui'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <Component {...pageProps} />
-    </>
+    </ThemeProvider>
   )
 }
 
